@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">  
+  <title>Thomas Mestdagh | Results summary component</title>
+</head>
+<body>
+
+  <main class="container">
+    <!-- RESULT SECTION -->
+    <section class="result">
+      <h1 class="result-title">Your Result</h1> 
+      <div class="result-score">
+        <span class="result-score-score">76</span>
+        <span class="result-score-target">of 100</span>
+      </div>
+      <h3 class="result-compliment">Great</h3>
+      <p class="result-explanation">You score higher than 65% of the people who have taken these tests.</p>
+    </section>
+
+    <!-- SUMMARY SECTION -->
+    <section class="summary">
+      <h2 class="summary-title">Summary</h2>
+      <ul class="summary-list">
+        <li class="summary-list-item">
+          <span class="summary-list-item-header">
+            <img src="./assets/images/icon-reaction.svg" alt="" class="icon">
+            <span class="name">Reaction</span>
+          </span>
+          <span class="summary-item-score"><strong>80</strong> / 100</span>
+        </li>
+        <li class="summary-list-item">
+          <span class="summary-list-item-header">
+            <img src="./assets/images/icon-memory.svg" alt="" class="summary-item-icon">  
+            <span class="summary-item-name">Memory</span>
+          </span>
+          <span class="summary-item-score"><strong>92</strong> / 100</span>
+        </li>
+        <li class="summary-list-item">
+          <span class="summary-list-item-header">
+            <img src="./assets/images/icon-verbal.svg" alt="" class="summary-item-icon">  
+            <span class="summary-item-name">Verbal</span>
+          </span>
+          <span class="summary-item-score"><strong>61</strong> / 100</span>
+        </li>
+        <li class="summary-list-item">
+          <span class="summary-list-item-header">
+            <img src="./assets/images/icon-visual.svg" alt="" class="summary-item-icon">
+            <span class="summary-item-name">Visual</span>
+          </span>
+          <span class="summary-item-score"><strong>72</strong> / 100</span>
+        </li>
+      </ul>
+      <button class="summary-continue-btn">Continue</button>
+    </section>
+  </main>
+</body>
+</html>

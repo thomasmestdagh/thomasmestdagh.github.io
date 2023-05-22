@@ -1,0 +1,242 @@
+// PRIMARY COLORS
+$lightRed: hsl(0, 100%, 67%);
+$orangeYellow: hsl(39, 100%, 56%);
+$greenTeal: hsl(166, 100%, 37%);
+$cobaltBlue: hsl(234, 85%, 45%);
+
+// BACKGROUND COLORS
+$lightRedbg: hsla(0, 100%, 67%,0.05);
+$orangeYellowbg: hsla(39, 100%, 56%, 0.05);
+$greenTealbg: hsla(166, 100%, 37%, 0.05);
+$cobaltBluebg: hsla(234, 85%, 45%, 0.05);
+
+
+
+// NEUTRAL COLORS
+$white: hsl(0, 0%, 100%);
+$paleBlue: hsl(221, 100%, 96%);
+$lightLavender: hsl(241, 100%, 89%);
+$darkGrayBlue: hsl(224, 30%, 27%);
+
+// GRADIENTS
+//background
+$lightSlateBlue: hsl(252, 100%, 67%);
+$lightRoyalBlue: hsl(241, 81%, 54%);
+
+//circle
+$violetBlue: hsla(256, 72%, 46%, 1);
+$persianBlue: hsla(241, 72%, 46%, 0);
+
+// TYPOGRAPHY
+$defaultFontSize: 1.8rem;
+$defaultFont: 'Hanken Grotesk', sans-serif;
+
+//SPACING
+$defaultBorderRadius: 4rem;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: $defaultFontSize;
+  font-family: $defaultFont;
+  background-color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container{
+  box-shadow: 0 10px 35px 0 hsla(256, 72%, 46%, 0.1);
+  border-radius: $defaultBorderRadius;
+  overflow: hidden;
+  display: flex;
+  max-width: 750px;
+
+  & > *{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+  }
+}
+
+section{
+  max-width: 50%;
+}
+
+.result{
+  background: linear-gradient(to bottom, $lightSlateBlue, $lightRoyalBlue);
+  border-radius: $defaultBorderRadius;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: $lightLavender;
+  padding: 5rem 6rem;
+  text-align: center;
+
+  &-score{
+    background: linear-gradient(to bottom, $violetBlue, $persianBlue);
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    justify-content: center;
+    border-radius: 50%;
+
+    &-score{
+      font-size: 7rem;
+      line-height: 1;
+      font-weight: 800;
+      color: $white;
+    }
+  }
+
+  &-compliment{
+    font-size: 3rem;
+    color: $white;
+    letter-spacing: 0.5px;
+  }
+
+  &-explanation{
+    line-height: 1.4;
+  }
+}
+
+.summary{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 5rem 4rem;
+
+  &-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &-item-score{
+    font-weight: 600;
+    color: #999;
+
+    strong{
+      font-weight: 800;
+      color: $darkGrayBlue;
+    }
+  }
+
+  &-list-item{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    border-radius: 1rem;
+
+    &:nth-child(1){
+      background-color: $lightRedbg;
+      color: $lightRed;
+    }
+
+    &:nth-child(2){
+      background-color: $orangeYellowbg;
+      color: $orangeYellow;
+    }
+
+    &:nth-child(3){
+      background-color: $greenTealbg;
+      color: $greenTeal;
+    }
+
+    &:nth-child(4){
+      background-color: $cobaltBluebg;
+      color: $cobaltBlue;
+    }
+
+    &-header{
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      font-weight: 700;
+    }
+  }
+
+  &-continue-btn{
+    background-color: $darkGrayBlue;
+    border: none;
+    padding: 1.8rem 0;
+    border-radius: 5rem;
+    font-size: $defaultFontSize;
+    color: $paleBlue;
+    
+    &:hover{
+      cursor: pointer;
+      background: linear-gradient(to bottom, $lightSlateBlue, $lightRoyalBlue);
+    }
+  }
+}
+
+@media (max-width: 600px){
+  body{
+    align-items: flex-start;
+    font-size: 1.6rem;
+  }
+  
+  .container{
+    flex-direction: column;
+    border-radius: 0;
+    height: 100vh;
+  }
+
+  section{
+    max-width: 100%;
+  }
+
+  .result{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 3rem 3rem;
+
+    &-title{
+      font-size: 2rem;
+    }
+
+    &-score{
+      width: 15rem;
+      height: 15rem;
+
+      &-score{
+        font-size: 5.5rem;
+      }
+    }
+
+    &-compliment{
+      font-size: 2.5rem;
+    }
+  }
+
+  .summary{
+    gap: 2.5rem;
+    padding: 3rem 3rem;
+
+    &-title{
+      font-size: 2rem;
+    }
+  }
+}
+
+
+
+
+
