@@ -1,0 +1,24 @@
+.footer {
+  background-color: #27212c;
+  color: white;
+}
+
+.footerInner {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+.copyright {
+  font-size: 16px;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials * {
+  width: 48px;
+}

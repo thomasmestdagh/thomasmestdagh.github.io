@@ -1,0 +1,27 @@
+.wrapper {
+  padding-top: 50px;
+}
+
+.data {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progressBar {
+  height: 10px;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.percent {
+  text-align: right;
+}
+
+.progressValue {
+  background-color: red;
+  height: 100%;
+  width: 0%;
+  border-radius: 5px;
+  transition: all 1s;
+}

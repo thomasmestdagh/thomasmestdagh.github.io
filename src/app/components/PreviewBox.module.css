@@ -1,0 +1,39 @@
+.previewBox {
+  background-color: black;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.2);
+  /* border: 3px solid white; */
+  transition: 0.5s transform;
+}
+
+.previewBox:hover {
+  transform: scale(1.05);
+}
+
+.previewBox::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(255, 255, 255, 0.1) 40%,
+    rgba(255, 255, 255, 0.1) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  z-index: 5;
+}
+
+.image {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .image {
+  }
+}

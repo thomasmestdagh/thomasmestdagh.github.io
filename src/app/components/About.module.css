@@ -1,0 +1,45 @@
+.content {
+  justify-content: space-evenly;
+  gap: 60px;
+  margin: 0 auto;
+}
+
+.aboutImage {
+  position: relative;
+
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  border: 3px solid red;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
+
+.aboutJob,
+.aboutName {
+  text-align: center;
+}
+
+.aboutJob {
+  margin-top: 30px;
+  font-size: 14px;
+  color: rgb(180, 180, 180);
+}
+
+.aboutName {
+  margin-top: 10px;
+  font-size: 26px;
+}
+
+.aboutParagraph {
+  margin-top: 50px;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-right: 1rem;
+}
+
+.skillsTitle {
+  font-size: 26px;
+  text-transform: uppercase;
+}

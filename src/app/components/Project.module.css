@@ -1,0 +1,53 @@
+.project:not(:first-child) {
+  margin-top: 150px;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.project * {
+  flex: 1;
+}
+
+.flipped {
+  flex-direction: row-reverse;
+}
+
+.flipped .imageContainer img {
+  margin-left: 100%;
+  transform: translateX(-100%);
+}
+
+.name {
+  font-size: 32px;
+}
+
+.description {
+  margin-top: 20px;
+  line-height: 1.8;
+}
+
+.link {
+  color: red;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 300;
+  transition: 0.3s border;
+}
+
+.link:hover {
+  border-bottom: 1px solid red;
+}
+
+@media screen and (max-width: 1000px) {
+  .project {
+    flex-direction: column;
+    gap: 60px;
+  }
+}
