@@ -4,7 +4,7 @@
   height: 250px;
   object-fit: cover;
   margin: 0 auto;
-  border: 3px solid red;
+  border: 5px solid var(--accent-color);
 }
 
 .informationHeader {
@@ -22,7 +22,7 @@
 }
 
 .informationHeader span {
-  color: red;
+  color: var(--accent-color);
 }
 
 .explanation {
@@ -39,6 +39,7 @@
 }
 
 .inputField {
+  background-color: var(--light-primary);
   width: 100%;
   padding: 10px 20px;
   border-radius: 5px;
@@ -55,12 +56,12 @@
 }
 
 .submitButton {
-  border: 2px solid white;
-  color: white;
+  border: 2px solid var(--light-primary);
+  color: var(--light-primary);
   padding: 10px 30px;
   text-transform: uppercase;
   border-radius: 10px;
-  transition-property: color, bakckground-color;
+  transition-property: color, background-color;
   transition: 0.3s;
 }
 

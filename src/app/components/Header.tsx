@@ -32,7 +32,7 @@ export default function Header({ id }: Props) {
           I&apos;m a Front-end Web Developer
         </h1>
       </div>
-      {/* <Pacman /> */}
+      <Pacman />
       <div className={styles.scrollButton}>
         <Link className={styles.aboutLink} href="#about" onClick={handleScroll}>
           <img src="./images/arrow-down.svg" alt="" />

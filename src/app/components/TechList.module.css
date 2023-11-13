@@ -25,6 +25,6 @@
 
 .iconBox:hover .iconTooltip {
   visibility: visible;
-  color: white;
+  color: var(--light-primary);
   background-color: black;
 }

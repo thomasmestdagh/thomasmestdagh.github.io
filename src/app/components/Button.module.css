@@ -1,6 +1,6 @@
 .button {
-  border: 2px solid white;
-  color: white;
+  border: 2px solid var(--light-primary);
+  color: var(--light-primary);
   padding: 10px 30px;
   text-transform: uppercase;
   border-radius: 10px;
@@ -9,6 +9,6 @@
 }
 
 .button:hover {
-  background-color: white;
+  background-color: var(--light-primary);
   color: black;
 }

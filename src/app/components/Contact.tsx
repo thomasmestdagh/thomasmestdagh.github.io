@@ -70,7 +70,7 @@ export default function Contact() {
           placeholder="your first name..."
           required
         />
-        <label className={styles.inputLabel} htmlFor="lastNameName">
+        <label className={styles.inputLabel} htmlFor="lastName">
           Last Name
         </label>
         <input

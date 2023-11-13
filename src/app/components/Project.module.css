@@ -31,7 +31,7 @@
 }
 
 .link {
-  color: red;
+  color: var(--accent-color);
   text-transform: uppercase;
   border-bottom: 1px solid transparent;
   margin-top: 20px;
@@ -42,7 +42,7 @@
 }
 
 .link:hover {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid var(--accent-color);
 }
 
 @media screen and (max-width: 1000px) {
