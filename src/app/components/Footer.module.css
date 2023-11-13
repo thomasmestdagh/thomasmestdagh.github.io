@@ -1,6 +1,6 @@
 .footer {
   background-color: #27212c;
-  color: white;
+  color: var(--light-primary);
 }
 
 .footerInner {

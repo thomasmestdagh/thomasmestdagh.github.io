@@ -19,7 +19,7 @@
 }
 
 .progressValue {
-  background-color: red;
+  background-color: var(--accent-color);
   height: 100%;
   width: 0%;
   border-radius: 5px;

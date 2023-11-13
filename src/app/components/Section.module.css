@@ -1,6 +1,6 @@
 .section {
   overflow: hidden;
-  color: white;
+  color: var(--light-primary);
   padding-bottom: 120px;
 }
 

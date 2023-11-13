@@ -4,6 +4,10 @@
 
 :root {
   --section-header-size: 36px;
+
+  --accent-color: rgb(223, 45, 45);
+  --accent-color-pacman: #c6932e;
+  --light-primary: rgb(210, 210, 210);
 }
 
 html,

@@ -4,6 +4,7 @@
   background-color: black;
   position: relative;
   padding: 50px;
+  overflow: hidden;
 }
 
 .content {
@@ -16,13 +17,13 @@
 
 .title {
   font-size: 50px;
-  color: white;
+  color: var(--light-primary);
   font-weight: 300;
   margin-bottom: 20px;
 }
 
 .titleName {
-  color: red;
+  color: var(--accent-color);
   font-weight: 700;
 }
 
