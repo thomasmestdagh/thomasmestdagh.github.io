@@ -11,6 +11,9 @@ export default function Footer() {
           <a href="https://github.com/thomasmestdagh">
             <img src="/images/github.png" alt="github logo" />
           </a>
+          <a href="https://www.linkedin.com/in/thomas-mestdagh-0922b8214">
+            <img src="/images/linkedin.png" alt="linkedin logo" />
+          </a>
         </div>
       </div>
     </footer>

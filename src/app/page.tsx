@@ -12,13 +12,13 @@ export default function Home() {
     <>
       <NavMenu />
       <Header id="header" />
-      <Section id="about" title="about me" bgColor="#473C50">
+      <Section id="about" title="about me" bgColor="#322b39">
         <About />
       </Section>
-      <Section id="projects" title="some of my latest work" bgColor="#27212C">
+      <Section id="projects" title="some of my latest work" bgColor="#1b171e">
         <Projects />
       </Section>
-      <Section id="contact" title="contact me" bgColor="#473C50">
+      <Section id="contact" title="contact" bgColor="#322b39">
         <Contact />
       </Section>
       <Footer />

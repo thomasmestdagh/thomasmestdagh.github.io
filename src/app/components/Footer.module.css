@@ -1,5 +1,5 @@
 .footer {
-  background-color: #27212c;
+  background-color: #1b171e;
   color: var(--light-primary);
 }
 
@@ -17,6 +17,7 @@
 
 .socials {
   display: flex;
+  gap: 1rem;
 }
 
 .socials * {
