@@ -8,7 +8,7 @@ export default function Projects() {
         name="FITAI"
         screenshot="images/fitai.png"
         technologies={["html", "css", "javascript"]}
-        url="#"
+        url="https://statuesque-truffle-a91c8c.netlify.app/"
         flipped={false}
       >
         FITAI is a landing page for a fictional fitness company. The website is
