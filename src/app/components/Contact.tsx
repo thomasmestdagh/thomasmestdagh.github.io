@@ -47,7 +47,7 @@ export default function Contact() {
         </p> */}
       {/* </div> */}
       <form className={styles.form} onSubmit={onSubmit} id="contact-form">
-        <p className={styles.title}>I'd love to hear from you</p>
+        <p className={styles.title}>I&apos;d love to hear from you</p>
         <input
           type="hidden"
           name="access_key"
