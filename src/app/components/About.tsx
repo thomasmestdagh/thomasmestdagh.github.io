@@ -6,7 +6,7 @@ export default function About() {
     <>
       <div className={styles.about}>
         <img
-          src="/images/thomas.png"
+          src="/images/portfolio-picture.jpg"
           alt="thomas mestdagh"
           className={styles.aboutImage}
           width="300"

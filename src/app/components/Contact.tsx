@@ -28,27 +28,26 @@ export default function Contact() {
   };
   return (
     <>
-      <div className={styles.information}>
-        <img
+      {/* <div className={styles.information}> */}
+      {/* <img
           className={styles.image}
-          src="/images/thomas.png"
+          src="/images/portfolio-picture.jpg"
           alt="Thomas Mestdagh"
         />
-        <p className={styles.informationHeader}>
-          You can <span>contact</span> me at:
-        </p>
-        <a
+        <p className={styles.informationHeader}>contact me</p> */}
+      {/* <a
           className={styles.emailAddress}
           href="mailto:thomasmestdagh@live.com"
-        >
-          thomasmestdagh@live.com
-        </a>
-        <p className={styles.explanation}>
-          Or you can write me using the contact form.
+        > */}
+      {/* thomasmestdagh@live.com
+        </a> */}
+      {/* <p className={styles.explanation}>
+          You can write me using the contact form.
           <br />I will answer as soon as possible.
-        </p>
-      </div>
+        </p> */}
+      {/* </div> */}
       <form className={styles.form} onSubmit={onSubmit} id="contact-form">
+        <p className={styles.title}>I'd love to hear from you</p>
         <input
           type="hidden"
           name="access_key"
@@ -59,57 +58,63 @@ export default function Contact() {
           name="subject"
           value="New message from thomasmestdagh.github.com"
         ></input>
-        <label className={styles.inputLabel} htmlFor="firstName">
-          First Name
-        </label>
-        <input
-          className={styles.inputField}
-          type="text"
-          id="firstName"
-          name="firstName"
-          placeholder="your first name..."
-          required
-        />
-        <label className={styles.inputLabel} htmlFor="lastName">
-          Last Name
-        </label>
-        <input
-          className={styles.inputField}
-          type="text"
-          id="lastName"
-          name="lastName"
-          placeholder="your last name..."
-          required
-        />
-        <label className={styles.inputLabel} htmlFor="email">
-          Email
-        </label>
-        <input
-          className={styles.inputField}
-          type="email"
-          id="email"
-          name="email"
-          placeholder="your email address..."
-          required
-        />
-        <label className={styles.inputLabel} htmlFor="message">
-          Message
-        </label>
-        <textarea
-          id="message"
-          name="message"
-          cols={30}
-          rows={10}
-          placeholder="your message..."
-          className={`${styles.inputField} ${styles.textArea}`}
-          required
-        ></textarea>
-        {/* <Button>Send Message &rarr;</Button> */}
+        <div className={styles.flexFields}>
+          <div className={styles.inputGroupOne}>
+            <label className={styles.inputLabel} htmlFor="firstName">
+              First Name
+            </label>
+            <input
+              className={styles.inputField}
+              type="text"
+              id="firstName"
+              name="firstName"
+              placeholder="your first name..."
+              required
+            />
+            <label className={styles.inputLabel} htmlFor="lastName">
+              Last Name
+            </label>
+            <input
+              className={styles.inputField}
+              type="text"
+              id="lastName"
+              name="lastName"
+              placeholder="your last name..."
+              required
+            />
+            <label className={styles.inputLabel} htmlFor="email">
+              Email
+            </label>
+            <input
+              className={styles.inputField}
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your email address..."
+              required
+            />
+          </div>
+          <div className={styles.inputGroupTwo}>
+            <label className={styles.inputLabel} htmlFor="message">
+              Message
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              cols={30}
+              rows={10}
+              placeholder="your message..."
+              className={`${styles.inputField} ${styles.textArea}`}
+              required
+            ></textarea>
+            {/* <Button>Send Message &rarr;</Button> */}
 
-        <button className={styles.submitButton} type="submit">
-          Send Message &rarr;
-        </button>
-        <span className={styles.submitCheck}>{result}</span>
+            <button className={styles.submitButton} type="submit">
+              Send Message &rarr;
+            </button>
+            <span className={styles.submitCheck}>{result}</span>
+          </div>
+        </div>
       </form>
     </>
   );
