@@ -15,18 +15,18 @@ export default function About() {
         <p className={styles.aboutJob}>Front-end Web Developer</p>
         <p className={styles.aboutName}>Thomas Mestdagh</p>
         <p className={styles.aboutParagraph}>
-          Hi, I'm Thomas. 👋
+          Hi, I&apos;m Thomas. 👋
           <br />
-          I'm a self-taught front-end developer passionate about creating great
-          user experiences. <br />
+          I&apos;m a self-taught front-end developer passionate about creating
+          great user experiences. <br />
           Infusing web projects with elements of playfulness is my forte. <br />
           My journey is marked by continuous learning and experimentation,
           driven by a desire to gamify the web. <br />
-          Through personal projects, I've honed my skills and cultivated a knack
-          for problem-solving. <br />
-          I'm looking forward to contribute my creativity and determination to
-          your team. <br />
-          Let's embark on this journey together, shaping great digital
+          Through personal projects, I&apos;ve honed my skills and cultivated a
+          knack for problem-solving. <br />
+          I&apos;m looking forward to contribute my creativity and determination
+          to your team. <br />
+          Let&apos;s embark on this journey together, shaping great digital
           experiences along the way.
         </p>
       </div>
