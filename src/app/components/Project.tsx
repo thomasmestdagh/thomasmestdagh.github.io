@@ -24,7 +24,7 @@ export default function Project({
   return (
     <div className={`${styles.project} ${flipped ? styles.flipped : ""}`}>
       <div>
-        <PreviewBox imgSrc={screenshot} />
+        <PreviewBox imgSrc={screenshot} link={url} />
       </div>
       <div className={styles.info}>
         <h3 className={styles.name}>{name}</h3>

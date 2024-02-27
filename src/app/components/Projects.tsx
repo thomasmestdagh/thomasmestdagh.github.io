@@ -14,7 +14,7 @@ export default function Projects() {
         FITAI is a landing page for a fictional fitness company. <br />
         The website scales well on all devices and relies on only HTML, CSS, and
         JavaScript. I had a lot of fun making this because it took me back to
-        that moment when i first started learning web development.
+        that moment when I first started learning web development.
       </Project>
       <Project
         name="PERSONAL WEBSITE"
@@ -31,9 +31,9 @@ export default function Projects() {
         flipped={true}
       >
         This website was built using Nextjs, Typescript, and React and it&apos;s
-        the website that is used to showcase my skills and the projects i&apos;m
-        currently working on. <br />
-        Don&apos;t forget to play some Pacman while you&apos;re here. 😄
+        the website that is used to showcase my skills and the projects I&apos;m
+        currently working on. Don&apos;t forget to play some Pacman while
+        you&apos;re here.
       </Project>
     </div>
   );
