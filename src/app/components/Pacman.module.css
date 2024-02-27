@@ -13,8 +13,9 @@
   white-space: nowrap;
   left: 100%;
   transform: translateX(-100%);
+  text-transform: uppercase;
   position: absolute;
-  color: var(--light-primary);
+  color: var(--accent-color-pacman);
   font-family: sans-serif;
   font-size: 1.5rem;
   padding: 10px;

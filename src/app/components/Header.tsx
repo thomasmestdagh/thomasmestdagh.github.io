@@ -26,10 +26,9 @@ export default function Header({ id }: Props) {
     <header id={id} className={styles.header}>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          Hello I&apos;m{" "}
-          <span className={styles.titleName}>Thomas Mestdagh</span>
+          Hi I&apos;m <span className={styles.titleName}>Thomas</span>
           <br className={styles.lineBreak} />
-          I&apos;m a Front-end Web Developer
+          Front-end Web Developer
         </h1>
       </div>
       <Pacman />

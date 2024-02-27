@@ -30,6 +30,11 @@ const skillsData = [
     imgSrc: "/images/nextjs.png",
     tooltip: "NextJS",
   },
+  {
+    name: "typescript",
+    imgSrc: "/images/typescript.png",
+    tooltip: "TypeScript",
+  },
 ];
 
 export default function TechList({ techs }: Props) {

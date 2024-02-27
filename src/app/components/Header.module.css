@@ -20,6 +20,7 @@
   color: var(--light-primary);
   font-weight: 300;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .titleName {
@@ -50,10 +51,10 @@
     font-size: 35px;
   }
 
-  .titleName {
+  /* .titleName {
     display: block;
-  }
-  .lineBreak {
+  } */
+  /* .lineBreak {
     display: none;
-  }
+  } */
 }

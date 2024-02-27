@@ -11,19 +11,29 @@ export default function Projects() {
         url="https://statuesque-truffle-a91c8c.netlify.app/"
         flipped={false}
       >
-        FITAI is a landing page for a fictional fitness company. The website is
-        optimized for all devices and focuses on accessibility.
+        FITAI is a landing page for a fictional fitness company. <br />
+        The website scales well on all devices and relies on only HTML, CSS, and
+        JavaScript. I had a lot of fun making this because it took me back to
+        that moment when i first started learning web development.
       </Project>
       <Project
-        name="DRAWIT"
-        screenshot="images/chatter.jpg"
-        technologies={["html", "css", "javascript", "react"]}
+        name="PERSONAL WEBSITE"
+        screenshot="images/portfolio-website.png"
+        technologies={[
+          "html",
+          "css",
+          "javascript",
+          "react",
+          "nextjs",
+          "typescript",
+        ]}
         url="#"
         flipped={true}
       >
-        A simple drawing application i built using the canvas API for all the
-        drawing and React to manage state. The app allows the user to download
-        their drawing as a png file or save the project using localstorage.
+        This website was built using Nextjs, Typescript, and React and it&apos;s
+        the website that is used to showcase my skills and the projects i&apos;m
+        currently working on. <br />
+        Don&apos;t forget to play some Pacman while you&apos;re here. 😄
       </Project>
     </div>
   );

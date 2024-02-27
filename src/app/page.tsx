@@ -15,7 +15,11 @@ export default function Home() {
       <Section id="about" title="about me" bgColor="#322b39">
         <About />
       </Section>
-      <Section id="projects" title="some of my latest work" bgColor="#1b171e">
+      <Section
+        id="projects"
+        title="some of my latest projects"
+        bgColor="#1b171e"
+      >
         <Projects />
       </Section>
       <Section id="contact" title="contact" bgColor="#322b39">

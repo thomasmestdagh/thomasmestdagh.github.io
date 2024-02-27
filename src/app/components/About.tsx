@@ -15,13 +15,19 @@ export default function About() {
         <p className={styles.aboutJob}>Front-end Web Developer</p>
         <p className={styles.aboutName}>Thomas Mestdagh</p>
         <p className={styles.aboutParagraph}>
-          Hi, i&apos;m Thomas. <br />
-          I&apos;m a self-taught front end developer trying to land my first
-          job. In my free time i love playing around with all things
-          game-development so i try to gamify the web wherever i can. <br />
+          Hi, I'm Thomas. 👋
           <br />
-          So if you are looking for a junior front end developer, don&apos;t
-          hesitate to contact me.
+          I'm a self-taught front-end developer passionate about creating great
+          user experiences. <br />
+          Infusing web projects with elements of playfulness is my forte. <br />
+          My journey is marked by continuous learning and experimentation,
+          driven by a desire to gamify the web. <br />
+          Through personal projects, I've honed my skills and cultivated a knack
+          for problem-solving. <br />
+          I'm looking forward to contribute my creativity and determination to
+          your team. <br />
+          Let's embark on this journey together, shaping great digital
+          experiences along the way.
         </p>
       </div>
       <div className={styles.skills}>
@@ -30,8 +36,9 @@ export default function About() {
         <ProgressBar name="CSS" progress={90} />
         <ProgressBar name="JavaScript" progress={85} />
         <ProgressBar name="React" progress={85} />
+        <ProgressBar name="TypeScript" progress={85} />
         <ProgressBar name="NextJs" progress={80} />
-        <ProgressBar name="UI Design" progress={50} />
+        <ProgressBar name="Angular" progress={70} />
         <ProgressBar name="Figma" progress={60} />
       </div>
     </>
