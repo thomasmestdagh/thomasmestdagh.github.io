@@ -35,6 +35,24 @@ export default function Projects() {
         currently working on. Don&apos;t forget to play some Pacman while
         you&apos;re here.
       </Project>
+      <Project
+        name="QUICK TODO"
+        screenshot="images/quick-todo.png"
+        technologies={[
+          "html",
+          "css",
+          "javascript",
+          "react",
+          "typescript",
+          "vite",
+        ]}
+        url="https://quick-todo-react.netlify.app/"
+        flipped={false}
+      >
+        A simple todo-list app with drag and drop functionality built in React.
+        The app doesn't have a backend so it uses localstorage to store the todo
+        data when a change occurs.
+      </Project>
     </div>
   );
 }
