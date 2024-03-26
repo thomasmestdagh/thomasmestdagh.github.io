@@ -35,6 +35,11 @@ const skillsData = [
     imgSrc: "/images/typescript.png",
     tooltip: "TypeScript",
   },
+  {
+    name: "vite",
+    imgSrc: "/images/vite.svg",
+    tooltip: "Vite",
+  },
 ];
 
 export default function TechList({ techs }: Props) {

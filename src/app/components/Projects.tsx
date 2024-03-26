@@ -50,8 +50,8 @@ export default function Projects() {
         flipped={false}
       >
         A simple todo-list app with drag and drop functionality built in React.
-        The app doesn't have a backend so it uses localstorage to store the todo
-        data when a change occurs.
+        The app doesn&apos;t have a backend so it uses localstorage to store the
+        todo data when a change occurs.
       </Project>
     </div>
   );
